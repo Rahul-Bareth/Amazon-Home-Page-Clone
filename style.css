@@ -64,7 +64,7 @@
 }
 
 .nav-search:hover {
-  border: 2px solid orange;
+  border: 1px solid orange;
 }
 
 .search-select {
@@ -96,7 +96,22 @@
   color: #0f1111;
 }
 
-/**  box4  **/
+/**--box4 **/
+
+.nav-language {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+
+.nav-language img{
+  height: 15px;
+  width: 19px;
+}
+
+
+/**  box5  **/
 
 span {
   font-size: 0.7rem;
@@ -127,13 +142,33 @@ span {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
-
+  
 }
+
+.panel-all {
+  border: 1px solid transparent;
+  padding: 10px 1px;
+}
+
+.panel-all:hover {
+  border: 1px solid white;
+  padding: 10px 1px;
+}
+
 
 .panel-option p {
   display: inline;
   margin-left: 15px;
+  padding: 10px 1px;
+  border: 1px solid transparent;
 }
+
+
+.panel-option p:hover {
+  padding: 10px 1px;
+  border: 1px solid white;
+}
+
 
 .panel-option {
   width: 75%;
@@ -142,7 +177,6 @@ span {
 
 .panel-deals {
   font-size: 0.9rem;
- 
 }
 
 /** hero-section **/
@@ -171,6 +205,35 @@ span {
 .hero-message a {
   color: #007185;
 }
+
+
+/** best-seller-section **/
+  
+.best-seller-section {
+  height: 265px;
+}
+
+.best-seller-section h3 {
+  margin-top: 8px;
+  margin-left: 25px;
+  font-size: 1.2rem;
+}
+
+
+.seller-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: 10px;
+}
+
+.seller-content img {
+  height: 210px;
+  width: auto;
+}
+
+
+
 
 /** shop-section **/
 
@@ -213,6 +276,52 @@ span {
 }
 
 
+/** tech-section--**/
+
+
+.tech-section {
+  display: flex;
+  background: #e3e6e6;
+  gap: 20px;
+  padding: 20px;
+}
+
+
+.card {
+  width: 300px;
+  background: white;
+  padding: 20px; 
+}
+
+.card h2 {
+  font-size: 1.3rem;
+  margin-bottom: 15px;
+}
+
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  gap: 15px;
+}
+
+
+.item img {
+ height: 120px;
+ width: 100%;
+ object-fit: cover;
+}
+
+.item p {
+  font-size: 0.85rem;
+  margin-top: 5px;
+}
+
+.card a {
+  display: inline-block;
+  margin-top: 20px;
+  text-decoration: none;
+  color: #007185;
+}
 
 /** footer **/
 
