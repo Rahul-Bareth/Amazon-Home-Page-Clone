@@ -182,7 +182,7 @@ span {
 /** hero-section **/
 
 .hero-section {
-  background-image: url("hero_image.jpg");
+  background-image: url("images/hero_image.jpg");
   background-size: cover;
   height: 350px;
   display: flex;
@@ -273,6 +273,16 @@ span {
 
 .box-content h2 {
   font-size: 1.3rem;
+}
+
+.box-content a {
+  color: #007185;
+  text-decoration: none;
+}
+
+.box-content a:hover {
+  color: #373432;
+  text-decoration: underline;
 }
 
 
@@ -369,7 +379,7 @@ ul a {
 } 
 
 .logo {
-  background-image: url("amazon_logo.png");
+  background-image: url("images/amazon_logo.png");
   background-size: cover;
   height: 50px;
   width: 100px;
