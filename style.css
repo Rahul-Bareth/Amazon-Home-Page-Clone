@@ -25,6 +25,10 @@
   width: 100%;
 }
 
+.logo a {
+  
+}
+
 .border {
   border: 1.4px solid transparent;
 }
@@ -204,6 +208,11 @@ span {
 
 .hero-message a {
   color: #007185;
+  text-decoration: none;
+}
+
+.hero-message a:hover {
+  text-decoration: underline;
 }
 
 
