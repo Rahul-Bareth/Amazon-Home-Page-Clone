@@ -71,8 +71,9 @@ html {
 }
 
 .nav-search:hover {
-  border: 1px solid orange;
+  border: 1.3px solid orange;
 }
+
 
 .search-select {
   background-color: #f3f3f3;
@@ -89,6 +90,11 @@ html {
   font-size: 1rem;
   border: none;
 }
+
+.search-input:focus {
+  outline: none;
+}
+
 
 
 .search-icon {
@@ -196,6 +202,7 @@ span {
   display: flex;
   justify-content: center;
   align-items: end;
+  cursor: pointer;
 }
 
 .hero-message {
@@ -265,15 +272,22 @@ span {
 }
 
 
+
 .box {
   height: 400px;
   width: 23%;
   background-color: white;
   padding: 20px 0px 15px;
   margin-top: 16px;
-
+  cursor: pointer;
+  transition: 0.3s;
 }
 
+
+.box:hover {
+  transform: translateY(5px);
+  box-shadow: 0 4px 15px rgba(0,0,0,0.15);
+}
 
 .box-img {
   height: 300px;
@@ -325,6 +339,7 @@ span {
   background: white;
   padding: 20px; 
   transition: 0.3s;
+  cursor: pointer;
 }
 
 .card:hover {
@@ -448,28 +463,3 @@ ul a {
 }
 
 
-
-
-/**
-@media (max-width: 768px) {
-
-  .navbar {
-   flex-wrap: wrap;
-   height: auto;
-   padding: 10px;
-  }
-
- .nav-search {
-    width: 100%;
-    margin-top: 10px;
-  }
-  .box {
-    width: 100%;
-  }
-
-  .card {
-    width: 100%;
-  }
-}
-
-**/
